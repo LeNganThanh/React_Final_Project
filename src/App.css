@@ -1,38 +1,121 @@
-.App {
-  text-align: center;
+body {
+  background: url(./images/front-symbol.jpeg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input {
+  width: 12rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.weekday {
+  padding-top: 5rem;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+}
+.day {
+  text-align: center;
+  background-color: rgba(210, 226, 218, 0.459);
+  border-radius: 25px 0px;
+  margin-top: 1.5rem;
+  width: 9rem;
+  margin-right: 1rem;
+  outline: 1px solid green;
+  outline-offset: 4px;
+}
+.search {
+  font-size: 1rem;
+  font-style: italic;
+  padding-left: 5px;
+}
+/* link to be white when focus */
+.activeLink {
+  color: white;
+  background-color: rgba(94, 166, 224, 0.651);
+  border-radius: 25px 0px;
+  outline: 1px solid lightblue;
+  outline-offset: 4px;
+}
+.normalLink {
+  color: darkblue;
+}
+
+/* span of News */
+.newsCount {
+  background-color: lightblue;
+  padding: 0 7px;
+  border-radius: 50%;
+  color: gray;
+  margin-left: 3px;
+}
+
+/* setting the login form */
+.app {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+  gap: 20px;
+  background-color: rgba(193, 230, 214, 0.534);
+  height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+input[type="text"],
+input[type="password"] {
+  height: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input[type="submit"] {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #01d28e;
+  border: 1px solid #01d28e;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+  background: #6cf0c2;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.login-form {
+  border-radius: 10px;
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 1.6rem;
+  margin: 25px;
+  align-items: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 10px auto;
+  font-size: 1.1rem;
+}
+.form {
+  display: flex;
+  justify-content: center;
 }
