@@ -5,9 +5,9 @@ export const initState = {
   tableData: timeTable,
   isDay: false,
   filter: "",
-  isLogin: true,
+  isLogin: false,
   newsCount: newsArr.length,
-  isShow: true,
+  isShow: false,
 };
 export const tableReducer = (state, action) => {
   switch (action.type) {
