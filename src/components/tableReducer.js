@@ -7,7 +7,7 @@ export const initState = {
   filter: "",
   isLogin: true,
   newsCount: newsArr.length,
-  isShow: false,
+  isShow: true,
 };
 export const tableReducer = (state, action) => {
   switch (action.type) {
