@@ -12,8 +12,11 @@ npm install gh-pages --save-dev
 }
 
 ### `git init`
+git remote add origin git@github.com:LeNganThanh/React_Final_Project.git
+git add .
+git commit -m"deploy...."
 
 ### `npm run deploy`
 
-
+git push -u origin master
 
