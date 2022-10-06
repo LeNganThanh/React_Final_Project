@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/React_Final_Project/static/css/main.450fa2f7.css",
+    "main.js": "/React_Final_Project/static/js/main.5f12adef.js",
+    "static/media/ballon.jpg": "/React_Final_Project/static/media/ballon.0da3b1c7c38208f52aa2.jpg",
+    "static/media/mueller_sek.jpg": "/React_Final_Project/static/media/mueller_sek.ef0bd4e0495d48085a31.jpg",
+    "static/media/ahrens_sek.jpg": "/React_Final_Project/static/media/ahrens_sek.a88427b360e61a10b722.jpg",
+    "static/media/pirate.jpg": "/React_Final_Project/static/media/pirate.4e047f4ca144726e57b4.jpg",
+    "static/media/front-symbol.jpeg": "/React_Final_Project/static/media/front-symbol.2abe039c41c6dbbb5093.jpeg",
+    "static/media/math.jpeg": "/React_Final_Project/static/media/math.2a092e2fd171f9018431.jpeg",
+    "static/media/deutsch.jpeg": "/React_Final_Project/static/media/deutsch.013d6bd86abb73d44b1f.jpeg",
+    "static/media/english.png": "/React_Final_Project/static/media/english.8ef5df232724f6270779.png",
+    "static/media/history.jpeg": "/React_Final_Project/static/media/history.2a21245be16fad61466f.jpeg",
+    "static/media/class-meeting.jpeg": "/React_Final_Project/static/media/class-meeting.de6f5921cc8899011a04.jpeg",
+    "static/media/sport.jpeg": "/React_Final_Project/static/media/sport.18b7c103260715c80d74.jpeg",
+    "index.html": "/React_Final_Project/index.html",
+    "main.450fa2f7.css.map": "/React_Final_Project/static/css/main.450fa2f7.css.map",
+    "main.5f12adef.js.map": "/React_Final_Project/static/js/main.5f12adef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.450fa2f7.css",
+    "static/js/main.5f12adef.js"
+  ]
+}
