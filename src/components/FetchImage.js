@@ -4,12 +4,13 @@ import ImageUnsplash from "./ImageUnsplash";
 export default function FetchImage() {
   //fetch data to get Pirate images from Unsplash
   const [images, setImages] = useState([]);
+  const api_id = process.env.REACT_APP_API_CLIENT_ID;
 
+  console.log(api_id);
   useEffect(() => {
     let controller = new AbortController();
 
-    let fetchUrl =
-      "https://api.unsplash.com/search/photos?query=pirate&page=3&client_id=uN7PFK__ic30ImJoTZOLW4lLrhitj-t690JgBAnvZew";
+    let fetchUrl = `https://api.unsplash.com/search/photos?query=pirate&page=3&client_id=${api_id}`;
 
     const fetchImage = async () => {
       try {
