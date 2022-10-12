@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React_Final_Project/static/css/main.450fa2f7.css",
-    "main.js": "/React_Final_Project/static/js/main.0079fd7f.js",
+    "main.js": "/React_Final_Project/static/js/main.0ec43bbe.js",
     "static/media/ballon.jpg": "/React_Final_Project/static/media/ballon.0da3b1c7c38208f52aa2.jpg",
     "static/media/mueller_sek.jpg": "/React_Final_Project/static/media/mueller_sek.ef0bd4e0495d48085a31.jpg",
     "static/media/ahrens_sek.jpg": "/React_Final_Project/static/media/ahrens_sek.a88427b360e61a10b722.jpg",
@@ -15,10 +15,10 @@
     "static/media/sport.jpeg": "/React_Final_Project/static/media/sport.18b7c103260715c80d74.jpeg",
     "index.html": "/React_Final_Project/index.html",
     "main.450fa2f7.css.map": "/React_Final_Project/static/css/main.450fa2f7.css.map",
-    "main.0079fd7f.js.map": "/React_Final_Project/static/js/main.0079fd7f.js.map"
+    "main.0ec43bbe.js.map": "/React_Final_Project/static/js/main.0ec43bbe.js.map"
   },
   "entrypoints": [
     "static/css/main.450fa2f7.css",
-    "static/js/main.0079fd7f.js"
+    "static/js/main.0ec43bbe.js"
   ]
 }
