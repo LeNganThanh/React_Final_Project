@@ -6,7 +6,6 @@ export default function FetchImage() {
   const [images, setImages] = useState([]);
   const api_id = process.env.REACT_APP_API_CLIENT_ID;
 
-  console.log(api_id);
   useEffect(() => {
     let controller = new AbortController();
 
@@ -25,7 +24,7 @@ export default function FetchImage() {
     };
     fetchImage();
     return () => controller?.abort();
-  }, []);
+  }, [api_id]);
   return (
     <div>
       {!images ? (
